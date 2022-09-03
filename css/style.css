@@ -1,0 +1,60 @@
+.div1 { 
+    width: 200px;
+    height: 100px; 
+    position: relative;
+    margin-bottom: 10px;
+    background-color:blue ;
+    animation: cane 3s linear 1s 1 alternate both;
+}
+@keyframes cane {
+    0% {left: 0%; }
+    25% { background-color: yellow;}
+    40% {background-color: orangered;}
+    50% { background-color: red;}
+    60% { background-color:orange;}
+    75% { background-color: blueviolet;}
+    100% {left: 85%; }
+}
+.div2 { 
+    width: 200px;
+    height: 100px; 
+    position: relative;
+    margin-bottom: 10px;
+    background-color:blue ;
+    animation: cane 3s linear 4s 1 alternate-reverse both;
+    left: 85%;
+}
+.div3 { 
+    width: 200px;
+    height: 100px; 
+    position: relative;
+    margin-bottom: 10px;
+    background-color:blue ;
+    animation: cane 3s linear 7s 1 alternate both;
+}
+.div4 { 
+    width: 200px;
+    height: 100px; 
+    position: relative;
+    margin-bottom: 10px;
+    background-color:blue ;
+    animation: cane 3s linear 10s 1 alternate-reverse both;
+    left: 85%;
+}
+.div5 { 
+    width: 200px;
+    height: 100px; 
+    position: relative;
+    margin-bottom: 10px;
+    background-color:blue ;
+    animation: cane 3s linear 13s 1 alternate both;
+}
+.div6 { 
+    width: 200px;
+    height: 100px; 
+    position: relative;
+    margin-bottom: 10px;
+    background-color:blue ;
+    animation: cane 3s linear 16s 1 alternate-reverse both;
+    left: 85%;
+}
